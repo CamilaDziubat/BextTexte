@@ -1,27 +1,27 @@
 {
   "tasks": [
     {
-      "id": "2",
-      "title": "TAREFA FACULDADE 2",
-      "description": "DESCRIÇÃO DA TAREFA",
-      "priority": "Média",
-      "dueDate": "2025-01-24",
+      "id": 1,
+      "title": "TAREFA 2",
+      "description": "DESCRIÇÃO",
+      "priority": "Baixa",
+      "dueDate": "2025-01-01",
       "category": ""
     },
     {
-      "id": "3",
-      "title": "tarefa 4",
-      "description": "asasas",
-      "priority": "Baixa",
-      "dueDate": "2025-01-24",
+      "id": 2,
+      "title": "TAREFA 3",
+      "description": "DESCRIÇÃO",
+      "priority": "Média",
+      "dueDate": "2025-01-15",
       "category": ""
     },
     {
       "id": 3,
-      "title": "Nova tarefa",
-      "description": "sasasa",
-      "priority": "Baixa",
-      "dueDate": "2025-01-30",
+      "title": "TAREFA 4",
+      "description": "DESCRIÇÃO",
+      "priority": "Alta",
+      "dueDate": "2025-01-22",
       "category": ""
     }
   ]
