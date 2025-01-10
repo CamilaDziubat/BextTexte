@@ -33,15 +33,33 @@ Este é um projeto front-end moderno e escalável desenvolvido com **Vue.js** e 
 
 ## Estrutura do Projeto  
 ```plaintext
-├── src/  
-│   ├── components/       # Componentes reutilizáveis  
-│   ├── router/           # Configuração do Vue Router  
-│   ├── views/            # Vistas individuais do aplicativo  
-│   └── ...  
-├── public/               # Arquivos públicos  
-├── tailwind.config.js    # Configuração do Tailwind CSS  
-├── vite.config.ts        # Configuração do Vite  
-└── ...
+Bext_Texte/
+├── public/
+│   ├── _redirects
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   │   └── favicon.ico
+│   │   └── styles/
+│   │       └── main.css
+│   ├── components/
+│   │   └── ExampleComponent.vue
+│   ├── views/
+│   │   └── Home.vue
+│   ├── router/
+│   │   └── index.ts
+│   ├── store/
+│   │   └── index.ts
+│   ├── App.vue
+│   ├── main.ts
+│   └── shims-vue.d.ts
+├── .gitignore
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 ## Como Rodar o Projeto
 1- Clone o repositório:
