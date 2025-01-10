@@ -14,5 +14,12 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  root: './', // Define a raiz do projeto
+  build: {
+    outDir: 'dist', // Define o diretório de saída
+    rollupOptions: {
+      input: './index.html' // Define o arquivo de entrada
+    }
   }
 })
