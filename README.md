@@ -23,13 +23,21 @@ Este é um projeto front-end moderno e escalável desenvolvido com **Vue.js** e 
 - **Dashboard de Tarefas**: Gerenciamento de tarefas com indicadores visuais.  
 - **Página de Login**: Autenticação segura e estilizada.  
 - **Navegação Suave**: Gerenciada pelo Vue Router, mantendo histórico e posição de rolagem.  
-- **Título Dinâmico**: Atualização automática do título da página com base na rota ativa.  
+- **Título Dinâmico**: Atualização automática do título da página com base na rota ativa.
+- **Autenticação Mockada**: Tela de login com autenticação simulada.
+- **Gerenciamento de Tarefas**: Criação, edição e exclusão de tarefas.
+- **Filtros**: Filtrar tarefas por categoria e prioridade.
+- **Modal de Tarefa**: Modal para adicionar ou editar tarefas.
+- **Responsividade**: A aplicação é responsiva e funciona bem em dispositivos móveis e desktops.
 
 ## Tecnologias Utilizadas  
 - **Vue.js**: Framework JavaScript progressivo para criação de interfaces de usuário.  
 - **TypeScript**: Superset do JavaScript com suporte a tipagem estática.  
 - **Tailwind CSS**: Framework de CSS baseado em utilitários.  
-- **Vite**: Ferramenta rápida para desenvolvimento e build.  
+- **Vite**: Ferramenta rápida para desenvolvimento e build.
+- Vue Router
+- Pinia (para gerenciamento de estado)
+- JSON Server (para simulação de backend)
 
 ## Estrutura do Projeto  
 ```plaintext
@@ -61,6 +69,14 @@ Bext_Texte/
 ├── vite.config.ts
 └── README.md
 ```
+
+##Estrutura do Projeto
+- **components:** Componentes reutilizáveis.
+- **views:** Páginas principais da aplicação.
+- **router:** Configuração das rotas.
+- **stores:** Gerenciamento de estado com Pinia.
+
+  
 ## Como Rodar o Projeto
 1- Clone o repositório:
 
