@@ -1,15 +1,7 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "title": "TAREFA ESCOLA 1",
-      "description": "DESCROIÇÃO DA TAREFA",
-      "priority": "Baixa",
-      "dueDate": "2025-01-10",
-      "category": ""
-    },
-    {
-      "id": 2,
+      "id": "2",
       "title": "TAREFA FACULDADE 2",
       "description": "DESCRIÇÃO DA TAREFA",
       "priority": "Média",
@@ -17,11 +9,19 @@
       "category": ""
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "tarefa 4",
       "description": "asasas",
       "priority": "Baixa",
       "dueDate": "2025-01-24",
+      "category": ""
+    },
+    {
+      "id": 3,
+      "title": "Nova tarefa",
+      "description": "sasasa",
+      "priority": "Baixa",
+      "dueDate": "2025-01-30",
       "category": ""
     }
   ]

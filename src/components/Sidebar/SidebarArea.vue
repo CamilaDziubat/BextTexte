@@ -44,7 +44,7 @@ const menuGroups = ref([
                 </svg>`,
         label: 'Dashboard',
         route: '#',
-        children: [{ label: 'Em Geral', route: '/' }]
+        children: [{ label: 'Em Geral', route: '/Geral' }]
       },
       {
         label: 'Tarefas',
@@ -103,8 +103,8 @@ const menuGroups = ref([
                     fill="white"
                   />
                 </svg>`,
-        label: 'Settings',
-        route: '/settings'
+        label: 'Sair',
+        route: '/'
       }
     ]
   }

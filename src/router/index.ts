@@ -15,7 +15,8 @@ const routes = [
     name: 'Geral',
     component: ECommerceView,
     meta: {
-      title: 'Geral Dashboard'
+      title: 'Geral Dashboard',
+      requiresAuth: true
     }
   },
   {
@@ -23,7 +24,8 @@ const routes = [
     name: 'profile',
     component: ProfileView,
     meta: {
-      title: 'Profile'
+      title: 'Profile',
+      requiresAuth: true
     }
   },
   {
@@ -31,7 +33,8 @@ const routes = [
     name: 'tasks',
     component: TasksDashboard,
     meta: {
-      title: 'Dashboard de Tarefas'
+      title: 'Dashboard de Tarefas',
+      requiresAuth: true
     }
   }
 ]
@@ -45,8 +48,13 @@ const router = createRouter({
 })
 
 router.beforeEach((to, from, next) => {
-  document.title = `Vue.js ${to.meta.title} | Bext-Texte-Para Front-End`
-  next()
+  const isAuthenticated = true // Substitua pela lógica de autenticação real
+  if (to.matched.some(record => record.meta.requiresAuth) && !isAuthenticated) {
+    next({ name: 'Login' })
+  } else {
+    document.title = `Vue.js ${to.meta.title} | Bext-Texte-Para Front-End`
+    next()
+  }
 })
 
 export default router
