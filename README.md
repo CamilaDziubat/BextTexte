@@ -1,6 +1,21 @@
 # Projeto Front-End com Vue.js e TypeScript  
 
 Este é um projeto front-end moderno e escalável desenvolvido com **Vue.js** e **TypeScript**, utilizando **Vue Router** para navegação, **Tailwind CSS** para estilização e **Vite** para build e desenvolvimento rápido.  
+## Tela de Login
+![image](https://github.com/user-attachments/assets/09101ade-3d2d-4e83-af4d-4af0bcad8df6)
+
+## Tela Home 
+![image](https://github.com/user-attachments/assets/b0401107-d2db-45d7-b580-c16e707f5427)
+
+## Tela Tarefas 
+![image](https://github.com/user-attachments/assets/ca49c7a1-9c18-4e7e-9be3-599dab8ea412)
+
+## Editando as Tarefas 
+![image](https://github.com/user-attachments/assets/46b5fa0b-694b-4f9d-a806-6521894ec4ae)
+
+
+
+
 
 ## Funcionalidades Principais  
 - **Painel de Controle de E-commerce**: Interface intuitiva para gerenciar produtos e pedidos.  
