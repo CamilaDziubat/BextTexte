@@ -46,7 +46,7 @@ npm run dev
 4-Acesse o projeto em http://localhost:3000.
 
 ## Scripts Disponíveis
-npm run dev: Inicia o servidor de desenvolvimento.
-npm run build: Gera o build para produção.
-npm run lint: Executa o linter para encontrar problemas no código.
+- **npm run dev:** Inicia o servidor de desenvolvimento.
+- **npm run build:** Gera o build para produção.
+- **npm run lint:** Executa o linter para encontrar problemas no código.
 
