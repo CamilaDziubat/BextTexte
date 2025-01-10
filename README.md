@@ -18,7 +18,7 @@ Este é um projeto front-end moderno e escalável desenvolvido com **Vue.js** e 
 
 
 ## Funcionalidades Principais  
-- **Painel de Controle de E-commerce**: Interface intuitiva para gerenciar produtos e pedidos.  
+- **Painel de Controle de E-commerce**: Interface intuitiva para gerenciar tarefas e prioridades.  
 - **Perfil de Usuário**: Informações pessoais e configurações do usuário.  
 - **Dashboard de Tarefas**: Gerenciamento de tarefas com indicadores visuais.  
 - **Página de Login**: Autenticação segura e estilizada.  
